@@ -1,0 +1,29 @@
+body {
+    background-color: #111;
+}
+
+.square {
+    content: "";
+    display: block;
+    aspect-ratio: 1;
+    margin: 1rem 1rem;
+    border-radius: 50%;
+    opacity: 0%;
+    transition: 300ms;
+}
+
+.square:hover {
+    opacity: 80%;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.standby {
+    opacity: 50%;
+}
+
+.bg-green {
+    background-color: green;
+}
