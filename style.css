@@ -12,6 +12,11 @@ body {
     transition: 300ms;
 }
 
+.main-container {
+    height: 100vh;
+    align-content: center;
+}
+
 .answer {
     content: "";
     aspect-ratio: 1;
