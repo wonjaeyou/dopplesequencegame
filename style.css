@@ -12,18 +12,49 @@ body {
     transition: 300ms;
 }
 
-.square:hover {
+.answer {
+    content: "";
+    aspect-ratio: 1;
+    margin: 1rem 1rem;
+    border-radius: 50%;
+    transition: 300ms;
+    width: 15px;
+    background-color: white;
+}
+
+
+/* .square:hover {
     opacity: 80%;
+} */
+
+.display-none {
+    display: none;
+}
+
+.standby {
+    opacity: 20%;
 }
 
 .active {
     opacity: 100%;
 }
 
-.standby {
-    opacity: 50%;
+.flashing {
+    opacity: 100%;
 }
 
-.bg-green {
+.sq-1 {
+    background-color: red;
+}
+
+.sq-2 {
+    background-color: yellow;
+}
+
+.sq-3 {
     background-color: green;
+}
+
+.sq-4 {
+    background-color: blue;
 }
